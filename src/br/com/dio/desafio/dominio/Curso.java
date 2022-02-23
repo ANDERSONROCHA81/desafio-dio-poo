@@ -5,6 +5,15 @@ public class Curso {
     private String descricao;
     private int cargahoraria;
 
+    public Curso(String titulo, String descricao, int cargahoraria) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.cargahoraria = cargahoraria;
+    }
+
+    public Curso() {
+    }
+
     public String getTitulo() {
         return titulo;
     }
