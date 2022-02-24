@@ -29,7 +29,7 @@ public class Mentoria extends Conteudo{
         return "Mentoria{" +
                 "titulo='" + getTitulo() + '\'' +
                 ", descricao='" + getDescricao() + '\'' +
-                "data=" + data.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) +
+                ", data=" + data.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) +
                 '}';
     }
 }
